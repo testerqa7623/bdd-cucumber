@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Login functionality",
+        "description": "",
+        "id": "facebook-login-page.;login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 136623050,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on \"facebook\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "facebook",
+                  "offset": 9
+                }
+              ],
+              "location": "LoginStepDef.i_am_on_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391407694,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I user type \"rupollbabu\" and \"206319\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rupollbabu",
+                  "offset": 13
+                },
+                {
+                  "val": "206319",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDef.i_user_type_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78126573,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click submit button",
+            "match": {
+              "location": "LoginStepDef.i_click_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login page.",
+    "description": "",
+    "id": "facebook-login-page.",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
